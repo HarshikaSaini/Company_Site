@@ -1,0 +1,66 @@
+{
+    "assets" :[
+{
+   "src":"../images/lenovo1.png",
+    "alt":"lenovoimage",
+    "height":"40%",
+    "width":"60%"
+
+},
+{
+    "src":"../images/dell1.png",
+    "alt":"dellimage",
+    "height":"50%",
+    "width":"60%"
+
+},
+{
+
+    "src":"../images/hm1.png",
+    "alt":"hmimage",
+    "height":"40%",
+    "width":"60%"
+},
+{
+    "src":"../images/hp1.png",
+    "alt":"hpimage",
+    "height":"40%",
+    "width":"60%"
+},
+{
+    "src":"../images/ibm.jpg",
+    "alt":"ibmimage",
+    "height":"20%",
+    "width":"20%"
+},
+{
+    "src":"../images/magicpin.jpg",
+    "alt":"magicpinimage",
+    "height":"40%",
+    "width":"60%"
+},
+{
+    "src":"../images/myntra1.png",
+    "alt":"myntrimage",
+    "height":"40%",
+    "width":"60%"
+},
+{
+    "src":"../images/swiggy1.png",
+    "alt":"swiggyimage",
+    "height":"40%",
+    "width":"50%"
+},
+{
+    "src":"../images/titan.jpg",
+    "alt":"titanimage",
+    "height":"40%",
+    "width":"60%"
+},
+{
+    "src":"../images/casio.png",
+    "alt":"casioimage",
+    "height":"40%",
+    "width":"60%"
+}
+]}

@@ -5,6 +5,8 @@ import Contactus from "./Component/Contactus";
 import Navbar from "./Component/Navbar";
 import Services from "./Component/Services";
 import Gallery from "./Component/Gallery"
+import "./App.css"
+
 const App = () => (
   <BrowserRouter>
    <Navbar />

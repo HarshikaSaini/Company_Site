@@ -1,24 +1,51 @@
-import React from "react";
-import logo from "../Images/logo.png";
-import {Link} from "react-router-dom";
-import "../Component/nav.css";
-const Navbar=()=>{
-    return(
-        <div className="Header">
-         <div className="logo-img">
-            <img  src= {logo} alt = "logoimage"/>
-         </div>
-         <div className="nav-div">
-            <ul className="Nav-list">
-                <li><Link to="/">Home</Link></li>
-                <li><Link to="/aboutus">About us</Link></li>
-                <li><Link to="/services">Services</Link></li>
-                <li><Link to="/gallery">Gallery</Link></li>
-                <li><Link to="/contactus">Contact us</Link></li>
+import React,{useState} from 'react';
+import DrawerComp from './DrawerComp';
+import AppBar from '@mui/material/AppBar';
+import Toolbar from '@mui/material/Toolbar';
+import Button from '@mui/material/Button';
+import { Tabs,Tab, IconButton, Typography, useMediaQuery, useTheme } from '@mui/material';
+import Diversity2Icon from '@mui/icons-material/Diversity2';
 
-            </ul>
-         </div>
-        </div>
-    )
+
+export default function Navbar() {
+const [value, setvalue] = useState();
+const theme = useTheme();
+const isMatch = useMediaQuery(theme.breakpoints.down("md"));
+
+  return (
+    <>
+      <AppBar sx={{ background: "#063970" }}  position='static' >
+        <Toolbar >
+          <IconButton size="large" color="inherit" edge="start" >
+            <Diversity2Icon />
+          </IconButton>
+          <Typography variant="h6" component="div" >ITCompany</Typography>
+          {
+            isMatch ? (
+              <>
+              <DrawerComp/>
+              </>
+
+            ):(
+              <>
+               <Tabs textColor = 'inherit' indicatorColor='primary' value={value} onChange={(e,value) => setvalue(value)} >
+               <Tab label="Home" href='/'/>
+               <Tab label="About us" href='/aboutus'/>
+               <Tab label="Services"  href='/services'/>
+               <Tab label="Contact us" href="/contactus" />
+               </Tabs>
+         
+              <Button variant='contained' sx={{ml: "auto"}}>Login</Button>
+              <Button variant="contained" sx={{ml:"1rem"}}>Signup</Button> 
+               </>
+            )
+          }
+
+          
+        </Toolbar>
+        
+      </AppBar>
+  
+    </>
+  );
 }
-export default Navbar
