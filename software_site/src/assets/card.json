@@ -1,0 +1,64 @@
+{
+    "cardData" : [
+        {
+            "src":"../images/discoverpath.svg",
+            "heading":"Discovery Projects",
+            "content":"Do a deep dive into your potential project, align business and technology stakeholders, and get a clear view on the resources and timeline needed to achieve its goals before investing in it"
+        },
+        {
+            "src":"../images/poc.svg",
+            "heading":"PoC/MVP Services",
+            "content":"Prototype to “fail fast” or enrich and strengthen your concept, deliver a product version for collecting feedback from early adopters, and prepare a foundation for a full-fledged roll-out."
+        },
+        {
+            "src":"../images/bpa.svg",
+            "heading":"Business Process Automation",
+            "content":"Automate routine and labor-intense operations across the value chain to improve overall performance, the experience of internal users, and scale operations."
+        },
+        {
+            "src":"../images/endtoend.svg",
+            "heading":"End-to-End System Integration",
+            "content":"Connect dots within existing systems and data landscape with APIs to unlock efficiency, eliminate siloed data, shadow IT, and error-prone manual interventions."
+        },
+        {
+            "src":"../images/cloudsol.svg",
+            "heading":"Cloud Solutions",
+            "content":"Use our expertise in empowering businesses with trusted cloud solutions and get a scalable, flexible, and connected enterprise environment."
+        },
+        {
+            "src":"../images/aiml.svg",
+            "heading":"AI/ML Solutions",
+            "content":"Empower your business with intelligent automation technologies and use our expertise in AI/ML to boost your company's efficiency, agility, and profitability."
+        },
+        {
+            "src":"../images/pod.svg",
+            "heading":"Product Oriented Delivery (POD)",
+            "content":"Get a team with an optimal blend of skills capable of delivering your product in optimal time, working closely with your business, product, and tech leadership."
+        },
+        {
+            "src":"../images/mdm.svg",
+            "heading":"Master Data Management",
+            "content":"Establish a golden source of corporate data to avoid costly reconciliations, eliminate waste and inconsistencies, and make your systems speak the same language."
+        },
+        {
+            "src":"../images/eod.svg",
+            "heading":"Executive and Operational Dashboards",
+            "content":"Design secure dashboards with key business, financial and operational indicators, delivered instantly with the ability to drill down to every single digit."
+        },
+        {
+            "src":"../images/uiux.svg",
+            "heading":"UI/UX Design",
+            "content":"Build a truly user-oriented digital product with an experienced team that uses clear and effective design solutions."
+        },
+        {
+            "src":"../images/blockchain.svg",
+            "heading":"Blockchain Development",
+            "content":"Utilize our custom blockchain solutions to improve your current infrastructure and achieve higher levels of security, scalability, and transparency."
+        },
+        {
+            "src":"../images/iot.svg",
+            "heading":"Internet of Things",
+            "content":"Let your business benefit from secure IoT solutions that will let you gather Big Data, optimize key processes, and improve decision-making."
+        }
+    ]
+}

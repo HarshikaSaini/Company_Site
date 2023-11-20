@@ -1,11 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Domine:wght@400;500&family=Lora&family=Poppins:wght@300&family=Victor+Mono:wght@200&display=swap');
+*{
+    box-sizing: border-box; 
+    font-family: 'Poppins', sans-serif;
+}
 .header-image{
     width:1350px;
     height:600px;
-}
-
-*{
-    box-sizing: border-box;
-    
 }
 .outer-div{
     height: 100%;
@@ -37,19 +37,23 @@
     display: block;
     height:  100%;
     width: 100%;
-    background-color:#f5f2f2;;
+    background-color:#fafafa;
     text-align: center;
     padding : 72px 0;
 }
 .heading2{
     letter-spacing: 4px;
-    margin-bottom: 2rem;
-    font-size: large;
-    line-height: 40px;
-    color: grey;
+    /* margin-bottom: 1rem; */
+    font-size: 25px;
+    color: #777272;
+    margin-top: 2rem;
 }
-
-
+.lifecycle-para{
+    margin: 2rem;
+    font-size: 19px;
+    letter-spacing: normal;
+    padding: 2rem;
+}
 
 
 

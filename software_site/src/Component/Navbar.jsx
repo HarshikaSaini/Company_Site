@@ -14,7 +14,7 @@ const isMatch = useMediaQuery(theme.breakpoints.down("md"));
 
   return (
     <>
-      <AppBar sx={{ background: "#063970" }}  position='static' >
+      <AppBar sx={{ background: "#063970" }}  position='sticky' >
         <Toolbar >
           <IconButton size="large" color="inherit" edge="start" >
             <Diversity2Icon />
